@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: #3a7e3c;
+  width: 230px;  
+}
+
+.button2 {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #b0b0b0;
+  width: 160px;  
+}
+
+.button3 {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+#easy {
+  background-color: #89ff52
+}
+
+#easy:hover {
+  background-color: #57a333
+}
+
+#mid {
+  background-color: #ffa600
+}
+
+#mid:hover {
+  background-color: #c27e00
+}
+
+#hard {
+  background-color: #ff3d3d
+}
+
+#hard:hover {
+  background-color: #b63e3e
+}
+
+#score {
+  color:red;
+  font-size: 36px;
+}
+
+#feedback {
+  color: red;
+  font-weight: bold;
+}
+
+.finishedHeading {
+  color: white;
+}
+
+.finishedParagraph {
+  color: white;
+  font-size: 20px;
+}

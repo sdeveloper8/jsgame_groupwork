@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess The Number Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Guess the Number Game</h1>
+    <!-- When onsubmit is called, by clicking on the submit button, the function we have written needs to be called. -->
+    <form onSubmit ="return guessTheNumber(event, randomNumber, timeStarted)">
+      <p>Guess a number between 1 and 100:</p>
+      <!-- The name attribute has been added in the line below, to get the data required from the form using event.target.guess.value -->
+      <input type="text" id="guessInput" name="guess" placeholder="Enter your guess here ..." required="true" autocomplete="off">
+      <br>
+      <!-- This button needs a type attribute, so that the form recognises it as a submission button -->
+      <button type="submit" id="submitButton">Submit Guess</button>
+      <br>
+      <p id="feedback"></p>
+      <p>Lives Remaining:</p>
+      <p id="lives">5</p>
+    </form>
+    <button id="easy" class="button3" onclick="setEasy()">Easy</button>
+    <button id="mid" class="button3" onclick="setMedium()">Medium</button>
+    <button id="hard" class="button3" onclick="setHard()">Hard</button>
+  <script src="script.js"></script>
+     </body>
+</html>
